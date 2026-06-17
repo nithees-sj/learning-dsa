@@ -11,6 +11,7 @@ public class TwoSum{
 
             if(sum == target){
                 System.out.println("Target Found");
+                System.out.println(arr[left] + "," + arr[right]);
                 break;
             }
             else if(sum<target){
