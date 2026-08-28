@@ -6,7 +6,6 @@ public class RemoveDuplicatesFromSortedArray{
         // and 3 respectively.
         // It does not matter what you leave beyond the returned k (hence they are underscores).
         int nums[] = {1,1,1,2,2,3};
-        int i=0;
         int count=0;
         for(int num:nums){
             if(count<2 || num!=nums[count-2]){
